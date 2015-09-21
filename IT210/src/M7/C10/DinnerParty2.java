@@ -1,0 +1,22 @@
+package M7.C10;
+import M7.C10.Party;
+
+public class DinnerParty2 extends Party
+{
+	private int dinnerChoice;
+
+	public int getDinnerChoice()
+	{
+		return dinnerChoice;
+	}
+
+	public void setDinnerChoice(int choice)
+	{
+		dinnerChoice = choice;
+	}
+
+	public void displayInvitation()
+	{
+		System.out.println("Please come to my dinner party!");
+	}
+}
